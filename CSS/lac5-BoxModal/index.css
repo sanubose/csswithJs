@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    border:15px solid greenyellow;
+    padding: 10px 40px;
+    margin: 40px 40px ;
+    width:250px;
+    height :250px;
+}
