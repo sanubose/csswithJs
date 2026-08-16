@@ -1,0 +1,26 @@
+/* p{
+    color: red;
+}
+h2{
+    color:white;
+    background-color: black;
+}
+#pID{
+ color: brown;
+} */
+/* .highlighter{
+    background-color: yellow;
+    color: red;
+} */
+/* *{
+    font-family: cursive;
+    font-style: italic;
+    color: greenyellow;
+} */
+/* #descSel p{
+    color: red;
+} */
+
+#DCSel> p{
+    color:brown;
+}
