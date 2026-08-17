@@ -1,0 +1,23 @@
+.container {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 00px;
+    padding: 12px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2px
+}
+
+.circle {
+    border-radius: 50%;
+}
