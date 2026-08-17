@@ -18,25 +18,29 @@ h1{
       font-weight: 100;
 }
 .hero{
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    margin-top: 20px;
+    padding:2px;
     height: 100vh;
-    width: 100vw;
+    
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
     align-items:center;
     flex-direction: column;
+    gap: 25px;
 
 }
 .main{
     
      height:350px;
      width:500px;
-    /* padding: 10px; */
+     padding: 10px; 
     display: flex;
     justify-content:center;
     align-items:center;
     gap: 10px;
-     border: 1px solid black;
+     /* border: 1px solid black; */
 
 }
 .box{
@@ -49,5 +53,28 @@ h1{
 
 
 
+}
+.box {
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.input-box{
+    padding:10px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+input{
+    height: 25px;
+}
+#btn{
+    height: 25px;
+    width: 50px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
