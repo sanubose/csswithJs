@@ -32,7 +32,12 @@ This repository documents my hands-on journey of learning and practicing modern 
 The main goal of this repository is **learning by building and experimenting with code**.
 
 ---
+#Project
+https://washingmachineassignment.netlify.app/
 
+https://jsscreen.netlify.app/
+
+https://ephemeral-bonbon-85f288.netlify.app/
 # 📂 Repository Structure
 
 ```text
