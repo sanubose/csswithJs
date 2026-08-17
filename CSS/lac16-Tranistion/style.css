@@ -1,0 +1,38 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 100px auto;
+    transition: 1s;
+    transition-duration:2s ;
+    transition-property:border-radius,background-color ,transform ;
+    transition-delay:0.5s ;
+    transition-timing-function: linear;
+}
+.box:hover{
+    background-color: chartreuse;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+/* nav{
+    background-color: black;
+    color: white;
+} */
+.list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+.item{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+.item:hover{
+    color: white;
+    background-color:black;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    transform: translateY(-12px);
+}

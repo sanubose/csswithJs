@@ -1,0 +1,30 @@
+.outter-container{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    margin: 100px auto;
+}
+.inner-container{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    color: yellow;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 100px auto; */
+    /* transform: scaleX(1.2) scaleY(2); */
+     /* transform: scale(1.5,2) */
+     /* transform: skew(45deg,25deg); */
+
+     /* transform: translate(-20px,-60px); */
+       /* transform:rotate(55deg); 
+
+      transform-origin:top; */
+      transform-origin: 40% 20%;
+      transition: 0.6 ease;
+}
+
+.inner-container:hover{
+    transform: rotate(70deg);
+}

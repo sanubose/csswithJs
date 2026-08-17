@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     /* --back-color:red */
+}
+:root{
+    --primary-text-color:red;
+    --secondary-text:#444;
+    --card-background-color:#fff;
+    --parent-background-color:#eee;
+}
+.dark{
+    --primary-text-color:red;
+    --secondary-text:#444;
+    --card-background-color:#fff;
+    --parent-background-color:#eee;
+}
+h1{
+    text-align: center;
+    color: var(--primary-text-color);
+}
+.container{
+    padding: 45px;
+      /* --back-color:red */
+      /* color: var(--primary-text-color); */
+      background-color: var( --parent-background-color);
+} 
+
+h2{
+    --back-color:yellow;
+    /* background-color: var(--back-color); */
+     color: var(--primary-text-color);
+}
+.box{
+     padding: 20px;
+     margin-block: 20px;
+     border-radius: 5%;
+     /* background-color: aqua; */
+     /* --back-color:red */
+     background-color: var(--card-background-color);
+}
+.box p{
+    color: var(--secondary-text);
+}
+h4{
+    padding: 45px;
+    /* background-color:var(--back-color,pink); */
+}
+
+/* @media(min-width:600px){
+    .container{
+        --back-color:green
+    }
+} */

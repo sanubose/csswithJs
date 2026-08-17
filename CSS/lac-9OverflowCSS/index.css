@@ -1,0 +1,21 @@
+.container{
+    /* color: red;
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    /* overflow: hidden; */
+    /* overflow: scroll;*/
+    /* overflow: auto; */ 
+    /* text-align: justify; */
+
+ 
+} 
+ .img1{
+    float: left;
+  }
+.img2{
+    float: right;
+  }
+  p{
+    clear :both;
+  }

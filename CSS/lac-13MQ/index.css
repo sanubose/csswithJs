@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+}
+/* @media ( width <=500px){
+    body{
+        background-color: red;
+    }
+    
+} */
+
+
+/* max-width ko hmesa top pe rkho vrna last me rkha to sab max-width ke hisab se hi chalega */
+
+
+
+
+/* @media ( width <=300px){
+    body{
+        background-color:green;
+    }
+    
+} */
+
+@media ( min-width: 500px) and (max-width:600px){
+    body{
+        background-color: red;
+    }
+    
+}

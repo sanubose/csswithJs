@@ -1,0 +1,38 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    /* border: 1px solid green; */
+    box-sizing: border-box;
+}
+
+p{
+    display: inline;
+}
+
+a{
+    display: inline-block;
+}
+img{
+    width: 10%;
+    height: 20%;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+    /* text-align: right; */
+    background-color: black;
+    color: white;
+    padding:30px;
+     gap:25px
+}
+ul>li>a{
+    text-decoration: none;
+     color:white;
+      /* gap:5px */
+    
+
+}
+li{
+    display: inline;
+     padding: 90px;
+}
