@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS+Guides&family=Saira+Stencil:ital,wght@0,100..900;1,100..900&display=swap');
+
+a{
+    /* text-align:right; */
+    color: transparent;
+    text-shadow: 2px 2px 2px black;
+    
+}
+.p1{
+    color: black;
+    text-indent: 20px;
+    /* letter-spacing: 2px; */
+    line-height: 30px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px 2px  red; 
+    font-family:  "Playwrite DE SAS Guides", cursive;;
+
+}
+h1{
+    text-align:right;
+    background-color: beige;
+    color:blue;
+    text-decoration:underline;
+    text-decoration-style:double;
+    text-decoration-color:red;
+             
+}
+p{
+    font-family: "Saira Stencil", sans-serif;;
+}
